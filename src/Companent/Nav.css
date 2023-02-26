@@ -1,0 +1,129 @@
+  *{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  scroll-behavior: smooth;
+  }
+  .icon-navber{
+    margin-right: 3rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3rem;
+    width: 4rem;
+    height: 4rem;
+    padding-bottom: 2rem;
+ 
+ 
+
+  }
+  .button{
+    font-size: 1.5rem;
+    color: black;
+        position: relative;
+          top: -1rem;
+ 
+  }
+   
+  
+.icon-navber span{
+   padding-bottom: 4rem;
+   color: brown;
+      
+ 
+}
+  .nav{
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
+   overflow-y: hidden;
+ }
+ .backgroundImage{
+   background-image:url("https://img.freepik.com/free-vector/template-banner-online-store-with-shopping-cart-with-purchases-boxes-delivery-from-supermarket-vector-illustration_548887-104.jpg?w=1800&t=st=1677283453~exp=1677284053~hmac=3c6d6e0f6297ec09d5d2f3f9a19fec58fa660b7e2e2528c90e566067bb1853ed");
+   width: 100%;
+   height: 90vh;
+   background-size: cover;
+   background-position: left;
+   background-repeat: no-repeat;
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, .2);
+ }
+ .Nav-link{
+  font-size: 1.3rem;
+ }
+ @media (max-width:767px) {
+  .backgroundImage {
+      background-position: center;
+  }
+ }
+    @media (max-width:217px) {
+        .icon-navber {
+            margin-right: 5rem;
+          
+            border-radius: 2rem;
+            width: 4rem;
+            height: 4rem;
+            
+            padding-bottom: 2rem;
+           
+        
+          }
+        .button {
+          font-size: 1.2rem;
+          color: black;
+          position: relative;
+          top: -.5rem;
+
+        }
+        .icon-navber span {
+      
+            position: relative;
+              top: .4rem;
+        }
+    }
+    @media (max-width:300px) {
+    .icon-navber {
+        margin-right: 3rem;
+       
+        border-radius: 3rem;
+        width: 3rem;
+        height: 3rem;
+        padding-bottom: 0rem;
+        padding:0px .5rem;
+      }
+    }
+  
+    @media (max-width:400px){
+      .Cart{
+        display: grid !important;
+        justify-content: center;
+        align-items: center;
+      }
+      .stack{
+           
+        display: grid !important;
+          justify-content: left;
+        max-width: 50rem !important;
+        margin: 1rem auto !important;
+      }
+        .stackImage {
+     
+        width: 150px !important;
+      margin: 0rem auto !important;
+      padding-right:1rem !important;
+      object-fit: cover!important;
+      object-position: center !important;
+    }
+      .outline-danger{
+ 
+      margin: 0rem auto !important;
+      position: relative !important;
+       bottom: 9rem;
+      left: 3rem;
+    
+      border-radius: 2rem;
+    /* background-color: transparent;
+    border: 1px solid transparent; */
+      height: 2rem;
+      font-size: .9rem;
+      
+      }
+      
+    }

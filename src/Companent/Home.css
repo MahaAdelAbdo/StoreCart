@@ -1,0 +1,106 @@
+
+.Products{
+    margin-top: 4rem;
+}
+.products-text{
+   
+    margin: 3rem auto;
+     
+    color: gray;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .5rem 0px;
+}
+.products-text h3 {
+    font-size: 1.7rem;
+}
+ 
+.border{
+border-bottom: 3px solid black !important;
+width: 9rem;
+margin: 0px auto;
+ 
+}
+.Card-Body{
+    overflow: hidden;
+}
+ 
+ 
+.Card{
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, .2);
+     
+    
+}
+ 
+ 
+.card_image:hover{
+    height: "100px";
+    background-color: red !important;
+    
+}
+.btn-Datate{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+}
+.Add{
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 5rem;
+}
+.btn-plassAnManis button{
+    border-radius: 2rem !important;
+}
+.btn-plassAnManis button:hover{
+    background-color: brown;
+    border: 1px solid brown;
+}
+.Delate:hover{
+    opacity: .6;    
+}
+@media (min-width:1400px) {
+.Grid-row {
+
+        margin: 0% 8rem;
+        padding-left: 1rem;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width:767px) {
+    .Grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+}
+@media (max-width:767px) {
+    .Add {
+            margin-top: 4rem;
+        }
+}
+ 
+@media (max-width:575px) {
+    .Add {
+        margin-top: 5.5rem;
+    }
+}
+
+@media (max-width:289px) {
+    .Add {
+        margin-top: 4.5rem;
+    }
+}
+ @media (max-width:991px) {
+    .Card{
+        width: 20rem !important;
+    }
+ }
+ @media (max-width:253px) {
+      .text-card{
+        font-size: .8rem;
+      }
+ }
